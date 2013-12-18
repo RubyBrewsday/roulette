@@ -15,7 +15,8 @@ if (Meteor.isClient) {
    var video_id = Videos.findOne({},{skip: Session.get('videoOffset')}).url
    // debugger
     var video = Popcorn.youtube('#youtube-video', 'http://www.youtube.com/embed/'+video_id);
-    video.play()
+        video.controls( false ).play();
+
   }
   Template.homePage.events({
     'click #new-video': function(e) {
