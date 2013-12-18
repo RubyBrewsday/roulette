@@ -10,19 +10,19 @@
                     <p id='quotetext'>You can find it all in the street</p>
                     <p id='quotecite'>---Bobby Womack</p>
                 </blockquote>
-                <h1>
                     <small>U Already Kno'!</small>
-                </h1>
 
             </div>
         </div>
         <div class="container vid">
+
             <div id="vidtitle">
+           
                 <p>{{video.title}}</p>
-                <iframe width="560" height="315" src="//www.youtube.com/embed/{{video.url}}?autoplay=1" frameborder="1" allowfullscreen>
-                </iframe>
-                <br>
-                <button type="button" class="btn btn-primary btn-lg active" onClick="document.location.reload(true)">Take another hit!</button>
+                <div id='youtube-video' style="height:500px;"></div>
+                <br><br><br>
+
+                <button type="button" class="btn btn-success btn-block" style="height:100px; max-width:80%; margin-left:10%;" id="new-video"><p class="lead strong"> Take another hit!</p></button>
             </div>
         </div>
         <div align='center'>
