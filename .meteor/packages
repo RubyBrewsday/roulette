@@ -10,3 +10,5 @@ jquery
 bootstrap
 ejson
 http
+underscore
+autopublish
