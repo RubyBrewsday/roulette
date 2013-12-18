@@ -1,0 +1,35 @@
+<template name="homePage">
+    <div class="hero-unit" id="banner">
+        <div>
+            <h1 style="text-align: center;">
+                <strong>Welcome to HoodRoulette</strong>
+            </h1>
+            <div id='quote'>
+
+                <blockquote>
+                    <p id='quotetext'>You can find it all in the street</p>
+                    <p id='quotecite'>---Bobby Womack</p>
+                </blockquote>
+                <h1>
+                    <small>U Already Kno'!</small>
+                </h1>
+
+            </div>
+        </div>
+        <div class="container vid">
+            <div id="vidtitle">
+                <p>{{video.title}}</p>
+                <iframe width="560" height="315" src="//www.youtube.com/embed/{{video.url}}?autoplay=1" frameborder="1" allowfullscreen>
+                </iframe>
+                <br>
+                <button type="button" class="btn btn-primary btn-lg active" onClick="document.location.reload(true)">Take another hit!</button>
+            </div>
+        </div>
+        <div align='center'>
+            <a href='http://www.hit-counter-html-code.com'>
+                <img src='http://www.hit-counter-html-code.com/c.php?d=9&id=124528&s=2' border='0' title='free website hit counter'>
+            </a>
+            <br />
+        </div>
+    </div>
+</template>

@@ -1,0 +1,47 @@
+/* CSS declarations go here  */
+body { 
+     background-image: url('/background.jpg');
+     background-repeat:no-repeat; 
+ }
+
+body {
+	background-color: transparent; 
+}
+
+#banner {
+	background-color: rgba(102, 132, 92, 0.631373);
+	filter:alpha(opacity=45);
+}
+
+.vid {
+	background: rgba(0, 0, 0, 0);
+	filter:alpha(opacity=100);
+	font
+}
+
+#vidtitle {
+	color: rgb(188, 0, 250);
+	font-size: 2.5em;
+	text-shadow: 2px 2px #ff0000;
+	text-align: center;
+	}
+
+#quotetext {
+	color: rgb(0,0,0);
+}
+
+#quotecite {
+	color: rgb(0,0,0);
+}
+
+#quote {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	background-color: rgba(255, 179, 46, 0.741176);
+	border-style: outset;
+	border-color: rgb(102,132,92);
+	border-bottom: 20px; 
+	text-align: center;
+	font-size: 2em;
+}
